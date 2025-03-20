@@ -61,8 +61,10 @@
                             <option selected>Escolha um Livro para Comprar</option>
                             <option value = "O Menino do Dedo Verde">O Menino do Dedo Verde</option>
                             <option value = "Elantris">Elantris</option>
-                            <option>livro3</option>
-                            <option>livro4</option>
+                            <option value = "Extraordinario">Extraordinário</option>
+                            <option value = "Harry Potter e a Pedra Filosofal">Harry Potter e a Pedra Filosofal</option>
+                            <option value = "A Revolucao dos Bichos">A Revolução dos Bichos</option>
+                            <option value = "Fabricante de Lagrimas">Fabricante de Lágrimas</option>
     
                         </select>
 

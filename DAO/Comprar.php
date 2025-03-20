@@ -59,6 +59,7 @@ class Comprar{
  
         try{
             $conn = $conexao->conectar();
+
             $sql = "update livro set quantidade = quantidade - $quantidade where nome = '$nome'";
             $result = mysqli_query($conn,$sql); 
 

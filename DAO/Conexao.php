@@ -8,7 +8,7 @@
                 $conn = mysqli_connect('localhost','root','','sistemalivros'); //<- local do banco,usuario,senha e nome do banco de dados
                 
                 if($conn){
-                    echo "<br>Conectado com sucesso!";
+                    
                     return $conn;
 
                 }
