@@ -3,11 +3,15 @@
 namespace PHP\SistemaLivros\DAO;
 
 require_once('Conexao.php');
+require_once('Autenticar.php');
 use PHP\SistemaLivros\DAO\Conexao;
+use PHP\SistemaLivros\DAO\Autenticar;
+
+$consultarCliente = new Autenticar();
 
 class Comprar{
 
-    public function comprarLivro(Conexao $conexao, int $codigoLivroFK, int $codigoClienteFK, int $quantidadeLivro, string $formaPagamento, int $precoTotal){
+    public function inserirCompra(Conexao $conexao, int $codigoLivroFK, int $codigoClienteFK, int $quantidadeLivro, string $formaPagamento, int $precoTotal){
 
         try{
 
@@ -50,7 +54,83 @@ class Comprar{
         }
     }
 
+    public function alterarQuantidadeLivro(Conexao $conexao, string $nome, int $quantidade){
 
+ 
+        try{
+            $conn = $conexao->conectar();
+            $sql = "update livro set quantidade = quantidade - $quantidade where nome = '$nome'";
+            $result = mysqli_query($conn,$sql); 
+
+        }catch(Exception $erro){
+            return "Algo deu errado!".$erro;
+        }
+    
+    }
+
+    public function inserirCodigoLivroCompra(Conexao $conexao, string $nomeLivro){
+
+        try{
+            $conn = $conexao->conectar();
+            $sql = "insert into compra (codigolivroFK) select codigoLivroPK from livro where nome = '$nomeLivro'";
+            $result = mysqli_query($conn,$sql); 
+             
+            
+        }catch(Exception $erro){
+            return "Algo deu errado!".$erro;
+        }
+    }
+
+    public function inserirCodigoClienteCompra(Conexao $conexao, string $email){
+        try{
+
+
+            $conn = $conexao->conectar();
+
+            $sql = "update compra set codigoClienteFK = ( select codigoClientePK from cliente where email = '$email') order by codigoCompraPK desc limit 1";
+
+            $result = mysqli_query($conn,$sql); 
+
+        }catch(Exception $erro){
+            return "Algo deu errado!".$erro;
+        }
+    }
+
+    public function quantidadeLivroCompra(Conexao $conexao,int $quantidade){
+        try{
+            $conn = $conexao->conectar();
+            $sql = "update compra set quantidadeLivro = $quantidade order by codigoCompraPK desc limit 1;";
+            $result = mysqli_query($conn,$sql); 
+             
+            
+        }catch(Exception $erro){
+            return "Algo deu errado!".$erro;
+        }
+    }
+
+    public function formaPagamento(Conexao $conexao, string $forma){
+        try{
+            $conn = $conexao->conectar();
+            $sql = "update compra set formaPagamento = '$forma' order by codigoCompraPK desc limit 1;";
+            $result = mysqli_query($conn,$sql); 
+             
+            
+        }catch(Exception $erro){
+            return "Algo deu errado!".$erro;
+        }
+    }
+
+    public function precoTotalCompra(Conexao $conexao, int $quantidade, string $nome){
+        try{
+            $conn = $conexao->conectar();
+            $sql = "update compra set precoTotal = (select preco from livro where nome = '$nome') * $quantidade order by codigoCompraPK desc limit 1";
+            $result = mysqli_query($conn,$sql); 
+             
+            
+        }catch(Exception $erro){
+            return "Algo deu errado!".$erro;
+        }
+    }
 }//fim do class
 
 ?>

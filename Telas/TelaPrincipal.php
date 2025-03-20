@@ -18,12 +18,7 @@
 
                 
 
-                <div id="barraPesquisaBloco"><!--Inicio barraPesquisaBloco-->
-                    <input id="barraPesquisa" placeholder="Pesquise por um Título" size="45px"><!--Barra de Pesquisa-->
-                    <picture id="iconePesquisa">
-                        <img src="imagens/search-icon-png-5.png" width="40px"><!--Icone pesquisa-->
-                    </picture>
-                </div><!--Fim barraPesquisaBloco-->
+                
                 
                 <a href="TelaPrincipal.php" style="color: black;"><!-- Inicio Link Header TelaPrincipal-->
                     <div id="tituloHeaderBloco"><!--Inicio tituloHeaderBloco-->
@@ -75,68 +70,68 @@
 
                     <div id="botaoLivroBloco"><!--Inicio botaoLivroBloco-->
                         <div class="livrosBloco"><!--Inicio livro-->
-                            <img width="100px" height="150px" style="margin-top: 20px;"><!--Capa do Livro-->
+                        <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/71iqMeqTxrL.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
-                                <label class="descricaoLivros">Nome:</label><br><!--Nome do Livro-->
-                                <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
+                                <label class="descricaoLivros">Nome: O Menino do Dedo Verde</label><br><!--Nome do Livro-->
+                                <label class="descricaoLivros">Preço: R$25,00</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
-                        <button>Comprar</button>
+                        
                     </div><!--Fim botaoLivroBloco-->
 
                     <div id="botaoLivroBloco"><!--Inicio botaoLivroBloco-->
                         <div class="livrosBloco"><!--Inicio livro-->
-                            <img width="100px" height="150px" style="margin-top: 20px;"><!--Capa do Livro-->
+                            <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/51vXa1V2pbL._UF894,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
-                                <label class="descricaoLivros">Nome:</label><br><!--Nome do Livro-->
-                                <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
+                                <label class="descricaoLivros">Nome: Elantris</label><br><!--Nome do Livro-->
+                                <label class="descricaoLivros">Preço: R$50,00</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
-                        <button>Comprar</button>
+                        
                     </div><!--Fim botaoLivroBloco-->
 
                     <div id="botaoLivroBloco"><!--Inicio botaoLivroBloco-->
                         <div class="livrosBloco"><!--Inicio livro-->
-                            <img width="100px" height="150px" style="margin-top: 20px;"><!--Capa do Livro-->
+                            <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/81iMRBeHKPL._UF894,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
-                                <label class="descricaoLivros">Nome:</label><br><!--Nome do Livro-->
+                                <label class="descricaoLivros">Nome: Fabricante de Lágrimas</label><br><!--Nome do Livro-->
                                 <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
-                        <button>Comprar</button>
+                        
                     </div><!--Fim botaoLivroBloco-->
 
                     <div id="botaoLivroBloco"><!--Inicio botaoLivroBloco-->
                         <div class="livrosBloco"><!--Inicio livro-->
-                            <img width="100px" height="150px" style="margin-top: 20px;"><!--Capa do Livro-->
+                            <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/91BsZhxCRjL._AC_UF1000,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
-                                <label class="descricaoLivros">Nome:</label><br><!--Nome do Livro-->
+                                <label class="descricaoLivros">Nome: A Revolução dos Bichos</label><br><!--Nome do Livro-->
                                 <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
-                        <button>Comprar</button>
+                        
                     </div><!--Fim botaoLivroBloco-->
 
                     <div id="botaoLivroBloco"><!--Inicio botaoLivroBloco-->
                         <div class="livrosBloco"><!--Inicio livro-->
-                            <img width="100px" height="150px" style="margin-top: 20px;"><!--Capa do Livro-->
+                            <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/6132ndvQdiL._AC_UF1000,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
-                                <label class="descricaoLivros">Nome:</label><br><!--Nome do Livro-->
+                                <label class="descricaoLivros">Nome: Extraordinário</label><br><!--Nome do Livro-->
                                 <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
-                        <button>Comprar</button>
+                        
                     </div><!--Fim botaoLivroBloco-->
 
                     <div id="botaoLivroBloco"><!--Inicio botaoLivroBloco-->
                         <div class="livrosBloco"><!--Inicio livro-->
-                            <img width="100px" height="150px" style="margin-top: 20px;"><!--Capa do Livro-->
+                            <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/61jgm6ooXzL._AC_UF1000,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
-                                <label class="descricaoLivros">Nome:</label><br><!--Nome do Livro-->
+                                <label class="descricaoLivros">Nome: Harry Potter e a Pedra Filosofal</label><br><!--Nome do Livro-->
                                 <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
-                        <button>Comprar</button>
+                        
                     </div><!--Fim botaoLivroBloco-->
 
                 </div><!--Inicio Destaques Bloco-->
