@@ -94,7 +94,7 @@
                         <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/81iMRBeHKPL._UF894,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
                                 <label class="descricaoLivros">Nome: Fabricante de Lágrimas</label><br><!--Nome do Livro-->
-                                <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
+                                <label class="descricaoLivros">Preço: R$ 10,00</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
                         
@@ -105,7 +105,7 @@
                         <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/91BsZhxCRjL._AC_UF1000,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
                                 <label class="descricaoLivros">Nome: A Revolução dos Bichos</label><br><!--Nome do Livro-->
-                                <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
+                                <label class="descricaoLivros">Preço: R$ 40,00</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
                         
@@ -116,7 +116,7 @@
                         <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/6132ndvQdiL._AC_UF1000,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
                                 <label class="descricaoLivros">Nome: Extraordinário</label><br><!--Nome do Livro-->
-                                <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
+                                <label class="descricaoLivros">Preço: R$20,00</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
                         
@@ -127,7 +127,7 @@
                         <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/61jgm6ooXzL._AC_UF1000,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
                                 <label class="descricaoLivros">Nome: Harry Potter e a Pedra Filosofal</label><br><!--Nome do Livro-->
-                                <label class="descricaoLivros">Preço:</label><!--Preço do Livro-->
+                                <label class="descricaoLivros">Preço: R$30,00</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
                         

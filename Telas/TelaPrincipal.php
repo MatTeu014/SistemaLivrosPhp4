@@ -106,7 +106,7 @@
                             <img width="100px" height="150px" style="margin-top: 20px;" src = "imagens/91BsZhxCRjL._AC_UF1000,1000_QL80_.jpg"><!--Capa do Livro-->
                             <div id="descricaoBloco">
                                 <label class="descricaoLivros">Nome: A Revolução dos Bichos</label><br><!--Nome do Livro-->
-                                <label class="descricaoLivros">Preço: R$ 40,00<</label><!--Preço do Livro-->
+                                <label class="descricaoLivros">Preço: R$ 40,00</label><!--Preço do Livro-->
                             </div>
                         </div><!--Fim livro-->
                         
